@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Pedagogía en Inglés</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <h1>Malla Curricular - Pedagogía en Inglés</h1>
+  <div class="malla">
+
+    <!-- Primer Año -->
+    <div class="año">
+      <h2>Primer Año</h2>
+      <div class="semestre">
+        <h3>I Semestre</h3>
+        <button class="ramo" data-id="lii" data-unlocks="liii">Lengua inglesa integrada I</button>
+        <button class="ramo" data-id="introEdu" data-unlocks="tp1">Introducción a la educación</button>
+        <button class="ramo">Introducción a la reflexión filosófica</button>
+        <button class="ramo">Taller de pensamiento matemático</button>
+        <button class="ramo">Expresión escrita</button>
+      </div>
+      <div class="semestre">
+        <h3>II Semestre</h3>
+        <button class="ramo" data-id="liii" data-unlocks="liv,litGlobal,gGestion">Lengua inglesa integrada II</button>
+        <button class="ramo">Pensamiento sociológico y educación</button>
+        <button class="ramo">Historia de la educación en Chile y Latinoamérica</button>
+        <button class="ramo">Pensamiento crítico</button>
+        <button class="ramo">Optativo formación general</button>
+        <button class="ramo">Optativo formación teológica</button>
+      </div>
+    </div>
+
+    <!-- Segundo Año -->
+    <div class="año">
+      <h2>Segundo Año</h2>
+      <div class="semestre">
+        <h3>III Semestre</h3>
+        <button class="ramo" data-id="liv" data-unlocks="lv">Lengua inglesa integrada III</button>
+        <button class="ramo" data-id="ling1" data-unlocks="ling2">Fundamentos lingüísticos I</button>
+        <button class="ramo">Realidad educacional chilena</button>
+        <button class="ramo">Educación inclusiva</button>
+        <button class="ramo">Optativo formación general</button>
+      </div>
+      <div class="semestre">
+        <h3>IV Semestre</h3>
+        <button class="ramo" data-id="lv" data-unlocks="lvi,estrategias">Lengua inglesa integrada IV</button>
+        <button class="ramo" data-id="ling2" data-unlocks="lingAplicada">Fundamentos lingüísticos II</button>
+        <button class="ramo" data-id="psicoEdu" data-unlocks="psico1,psico2">Psicología educacional</button>
+        <button class="ramo" data-id="tp1" data-unlocks="tp2">Taller de práctica temprana I</button>
+        <button class="ramo">Optativo formación teológica</button>
+      </div>
+    </div>
+
+    <!-- Tercer Año -->
+    <div class="año">
+      <h2>Tercer Año</h2>
+      <div class="semestre">
+        <h3>V Semestre</h3>
+        <button class="ramo" data-id="lvi" data-unlocks="lvii">Lengua inglesa integrada V</button>
+        <button class="ramo" data-id="litGlobal">Literatura global</button>
+        <button class="ramo" data-id="psico1">Psicología del aprendizaje I</button>
+        <button class="ramo" data-id="gGestion">Gestión de aulas</button>
+        <button class="ramo" data-id="lingAplicada" data-unlocks="estrategias,curriculum,litIngles">Lingüística aplicada</button>
+        <button class="ramo" data-id="tp2" data-unlocks="elab1">Taller de práctica temprana II</button>
+      </div>
+      <div class="semestre">
+        <h3>VI Semestre</h3>
+        <button class="ramo" data-id="lvii" data-unlocks="lviii">Lengua inglesa integrada VI</button>
+        <button class="ramo" data-id="psico2">Psicología del aprendizaje II</button>
+        <button class="ramo" data-id="curriculum" data-unlocks="evaluacion,elab2">Currículum de inglés</button>
+        <button class="ramo" data-id="estrategias" data-unlocks="materiales,elab">Estrategias y habilidades</button>
+        <button class="ramo" data-id="elab1" data-unlocks="elab2">ELAB y reflexión I</button>
+      </div>
+    </div>
+
+    <!-- Cuarto Año -->
+    <div class="año">
+      <h2>Cuarto Año</h2>
+      <div class="semestre">
+        <h3>VII Semestre</h3>
+        <button class="ramo" data-id="lviii" data-unlocks="lix">Lengua inglesa integrada VII</button>
+        <button class="ramo">Ética profesional</button>
+        <button class="ramo" data-id="evaluacion" data-unlocks="elab3">Evaluación para el aprendizaje</button>
+        <button class="ramo" data-id="materiales">Diseño y selección de materiales</button>
+        <button class="ramo" data-id="elab2" data-unlocks="elab3">ELAB y reflexión II</button>
+      </div>
+      <div class="semestre">
+        <h3>VIII Semestre</h3>
+        <button class="ramo" data-id="lix" data-unlocks="acad1,seminario,elab4">Lengua inglesa integrada VIII</button>
+        <button class="ramo" data-id="litIngles" data-unlocks="seminario">Literatura para la enseñanza</button>
+        <button class="ramo" data-id="elab3" data-unlocks="seminario,elab4">ELAB y reflexión III</button>
+        <button class="ramo">Optativo formación complementaria</button>
+        <button class="ramo">Optativo formación complementaria</button>
+      </div>
+    </div>
+
+    <!-- Quinto Año -->
+    <div class="año">
+      <h2>Quinto Año</h2>
+      <div class="semestre">
+        <h3>IX Semestre</h3>
+        <button class="ramo" data-id="acad1" data-unlocks="acad2,titulacion">Inglés académico I</button>
+        <button class="ramo" data-id="seminario" data-unlocks="titulacion">Seminario de grado</button>
+        <button class="ramo" data-id="elab4" data-unlocks="titulacion,elab5">ELAB y reflexión IV</button>
+        <button class="ramo">Optativo formación complementaria</button>
+      </div>
+      <div class="semestre">
+        <h3>X Semestre</h3>
+        <button class="ramo" data-id="acad2">Inglés académico II</button>
+        <button class="ramo" data-id="titulacion">Taller de titulación</button>
+        <button class="ramo" data-id="elab5">ELAB V y práctica profesional</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
